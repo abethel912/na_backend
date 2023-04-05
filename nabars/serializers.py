@@ -8,4 +8,4 @@ class NabarsSerializer(serializers.HyperlinkedModelSerializer):
         # The model it will serialize
         model = Nabars
         # the fields that should be included in the serialized output
-        fields = ['name', 'img', 'address', 'description', 'website']
+        fields = ['id', 'name', 'img', 'address', 'description', 'website']
