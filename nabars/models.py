@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+class Nabars(models.Model):
+    name = models.CharField(max_length=100)
+    img = models.CharField(max_length=700)
+    address = models.CharField(max_length=100)
+    description = models.CharField(max_length=3000)
+    website = models.CharField(max_length=100)
+    
+    
